@@ -4,7 +4,7 @@
   "description": "A docsify.js plugin for rendering and embedding interactive JavaScript REPLs powered by RunKit",
   "author": "John Hildenbiddle",
   "license": "MIT",
-  "homepage": "https://github.com/jhildenbiddle/docsify-plugin-runkit#readme",
+  "homepage": "https://jhildenbiddle.github.io/docsify-plugin-runkit/",
   "repository": {
     "type": "git",
     "url": "git+https://jhildenbiddle@github.com/jhildenbiddle/docsify-plugin-runkit.git"
