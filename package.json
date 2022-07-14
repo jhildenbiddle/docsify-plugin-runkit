@@ -36,7 +36,7 @@
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf dist/*",
-    "escheck": "es-check es5 './dist/**/*.js'",
+    "escheck": "es-check es5 'dist/**/*.js'",
     "lint": "eslint . && markdownlint . --ignore node_modules",
     "prepare": "run-s clean build",
     "serve": "node server.js",
