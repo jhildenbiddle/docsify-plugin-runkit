@@ -1,0 +1,66 @@
+{
+  "name": "docsify-plugin-runkit",
+  "version": "0.0.0",
+  "description": "A docsify.js plugin for rendering and embedding interactive JavaScript REPLs powered by RunKit",
+  "author": "John Hildenbiddle",
+  "license": "MIT",
+  "homepage": "https://github.com/jhildenbiddle/docsify-plugin-runkit#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://jhildenbiddle@github.com/jhildenbiddle/docsify-plugin-runkit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhildenbiddle/docsify-plugin-runkit/issues"
+  },
+  "keywords": [
+    "docsify",
+    "docsify.js",
+    "javascript",
+    "js",
+    "markdown",
+    "notebook",
+    "playground",
+    "plugin",
+    "repl",
+    "runkit"
+  ],
+  "browserslist": [
+    "ie >= 11"
+  ],
+  "files": [
+    "dist"
+  ],
+  "main": "dist/docsify-plugin-runkit.js",
+  "browser": "dist/docsify-plugin-runkit.min.js",
+  "unpkg": "dist/docsify-plugin-runkit.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "rimraf dist/*",
+    "lint": "eslint . && markdownlint . --ignore node_modules && es-check es5 './dist/**/*.js'",
+    "prepare": "run-s clean build",
+    "serve": "node server.js",
+    "start": "run-p serve 'build -- --watch'",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "run-s prepare lint"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.16",
+    "@babel/preset-env": "^7.13.15",
+    "@rollup/plugin-babel": "^5.3.0",
+    "@rollup/plugin-commonjs": "^22.0.1",
+    "@rollup/plugin-json": "^4.1.0",
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "browser-sync": "^2.26.14",
+    "compression": "^1.7.4",
+    "es-check": "^6.2.1",
+    "eslint": "^8.19.0",
+    "lodash.merge": "^4.6.2",
+    "markdownlint-cli": "^0.31.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.45.2",
+    "rollup-plugin-eslint": "^7.0.0",
+    "rollup-plugin-styles": "^4.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}
