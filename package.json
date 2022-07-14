@@ -36,12 +36,13 @@
   "scripts": {
     "build": "rollup -c",
     "clean": "rimraf dist/*",
-    "lint": "eslint . && markdownlint . --ignore node_modules && es-check es5 './dist/**/*.js'",
+    "escheck": "es-check es5 './dist/**/*.js'",
+    "lint": "eslint . && markdownlint . --ignore node_modules",
     "prepare": "run-s clean build",
     "serve": "node server.js",
     "start": "run-p serve 'build -- --watch'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "version": "run-s prepare lint"
+    "version": "run-s prepare lint escheck"
   },
   "devDependencies": {
     "@babel/core": "^7.13.16",
