@@ -13,8 +13,8 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 
 <a href="https://jhildenbiddle.github.io/docsify-plugin-runkit">
   <picture style="width: 100%; height: auto;">
-    <source srcset="assets/img/screenshot-runkit.webp" type="image/webp">
-    <img src="assets/img/screenshot-runkit.jpg" alt="screenshot">
+    <source srcset="docs/assets/img/screenshot-runkit.webp" type="image/webp">
+    <img src="docs/assets/img/screenshot-runkit.jpg" alt="screenshot">
   </picture>
 </a>
 
