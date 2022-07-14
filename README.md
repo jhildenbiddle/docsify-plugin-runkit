@@ -28,6 +28,29 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 - Configure <abbr title="Read-Eval-Print Loop">REPL</abbr>s globally or individually using [options](https://jhildenbiddle.github.io/docsify-plugin-runkit#options) from RunKit's API
 - Save changes as new notebooks on [runkit.com](https://runkit.com/)
 
+## Installation
+
+1. Add the plugin to your `index.html` after docsify.
+
+   ```html
+   <!-- docsify (latest v4.x.x)-->
+   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
+
+   <!-- docsify-plugin-runkit (latest v1.x.x) -->
+   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-runkit@1"></script>
+   ```
+
+1. Review the [options](#options) section and configure as needed.
+
+   ```javascript
+   window.$docsify = {
+     // ...
+     runkit: {
+       // Options...
+     }
+   };
+   ```
+
 ## Usage & Options
 
 See the [documentation site](https://jhildenbiddle.github.io/docsify-plugin-runkit) for details and demos.
