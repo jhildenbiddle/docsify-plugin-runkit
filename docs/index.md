@@ -2,9 +2,9 @@
 # docsify-plugin-runkit
 
 [![NPM](https://img.shields.io/npm/v/docsify-plugin-runkit.svg?style=flat-square)](https://www.npmjs.com/package/docsify-plugin-runkit)
-[![GitHub Workflow Status (master)](https://img.shields.io/github/workflow/status/jhildenbiddle/docsify-plugin-runkit/Build/master?label=checks&style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/actions?query=branch%3Amaster+)
+[![GitHub Workflow Status (main)](https://img.shields.io/github/workflow/status/jhildenbiddle/docsify-plugin-runkit/Build/main?label=checks&style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/actions?query=branch%3Amain+)
 [![Codacy grade](https://img.shields.io/codacy/grade/e9c2a9504211450ab39e0d72a1158a47.svg?style=flat-square)](https://app.codacy.com/gh/jhildenbiddle/docsify-plugin-runkit/dashboard)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/main/LICENSE)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/docsify-plugin-runkit/badge)](https://www.jsdelivr.com/package/npm/docsify-plugin-runkit)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-plugin-runkit&hashtags=docsify,developers,frontend,plugin)
 <a class="github-button" href="https://github.com/jhildenbiddle/docsify-plugin-runkit" data-icon="octicon-star" data-show-count="true" aria-label="Star jhildenbiddle/docsify-plugin-runkit on GitHub">Star</a>
@@ -453,7 +453,7 @@ runkit: {
 <!-- omit in toc -->
 ## License
 
-This project is licensed under the [MIT license](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/master/LICENSE).
+This project is licensed under the [MIT license](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/main/LICENSE).
 
 Copyright (c) John Hildenbiddle ([@jhildenbiddle](https://twitter.com/jhildenbiddle))
 
