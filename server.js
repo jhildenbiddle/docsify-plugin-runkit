@@ -39,7 +39,7 @@ browserSync.init({
             replace: '/CHANGELOG.md'
         },
         {
-            match  : /https?:\/\/cdn\.jsdelivr\.net\/npm\/docsify-plugin-runkit@1/g,
+            match  : /https?:\/\/cdn\.jsdelivr\.net\/npm\/docsify-plugin-runkit[@\d.]*/g,
             replace: '/docsify-plugin-runkit.min.js'
         }
     ]
