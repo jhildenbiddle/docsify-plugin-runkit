@@ -9,7 +9,7 @@
 
 A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScript <abbr title="Read-Eval-Print Loop">REPL</abbr>s powered by [RunKit](https://runkit.com/).
 
-* [Documentation](https://jhildenbiddle.github.io/docsify-plugin-runkit)
+- [Documentation](https://jhildenbiddle.github.io/docsify-plugin-runkit)
 
 **Screenshot**
 
