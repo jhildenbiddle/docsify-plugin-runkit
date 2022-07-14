@@ -13,6 +13,7 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 
 **Screenshot**
 
+<!-- Screenshots made with https://www.screely.com/ -->
 <a href="https://jhildenbiddle.github.io/docsify-plugin-runkit">
   <picture>
     <source srcset="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.webp" type="image/webp">
