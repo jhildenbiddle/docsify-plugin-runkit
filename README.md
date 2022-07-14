@@ -9,14 +9,14 @@
 
 A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScript <abbr title="Read-Eval-Print Loop">REPL</abbr>s powered by [RunKit](https://runkit.com/).
 
-- See [homepage](https://jhildenbiddle.github.io/docsify-plugin-runkit) for documentation and demos
+* [Documentation](https://jhildenbiddle.github.io/docsify-plugin-runkit)
 
-## Screenshot
+**Screenshot**
 
 <a href="https://jhildenbiddle.github.io/docsify-plugin-runkit">
   <picture>
-    <source srcset="docs/assets/img/screenshot-runkit.webp" type="image/webp">
-    <img src="docs/assets/img/screenshot-runkit.jpg" alt="screenshot">
+    <source srcset="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.webp" type="image/webp">
+    <img src="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.jpg" alt="screenshot">
   </picture>
 </a>
 
@@ -26,6 +26,10 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 - Embed existing notebooks from [runkit.com](https://runkit.com/)
 - Configure <abbr title="Read-Eval-Print Loop">REPL</abbr>s globally or individually using [options](https://jhildenbiddle.github.io/docsify-plugin-runkit#options) from RunKit's API
 - Save changes as new notebooks on [runkit.com](https://runkit.com/)
+
+## Usage & Options
+
+See the [documentation site](https://jhildenbiddle.github.io/docsify-plugin-runkit) for details and demos.
 
 ## Contact & Support
 
