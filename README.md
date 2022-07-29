@@ -14,12 +14,16 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 **Screenshot**
 
 <!-- Screenshots made with https://www.screely.com/ -->
-<a href="https://jhildenbiddle.github.io/docsify-plugin-runkit">
-  <picture>
-    <source srcset="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.webp" type="image/webp">
-    <img src="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.jpg" alt="screenshot">
-  </picture>
-</a>
+<p>
+  <a href="https://jhildenbiddle.github.io/docsify-plugin-runkit">
+    <picture>
+      <source srcset="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.webp" type="image/webp">
+      <img src="https://raw.githubusercontent.com/jhildenbiddle/docsify-plugin-runkit/main/docs/assets/img/screenshot-runkit.jpg" alt="screenshot">
+    </picture>
+  </a>
+</p>
+
+> 💡 Like this plugin? Check out [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable) for your site theme, [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/) for tabbed content, and [docsify-plugin-ethicalads](https://jhildenbiddle.github.io/docsify-plugin-ethicalads/) for EthicalAds integration!
 
 ## Features
 
@@ -28,32 +32,9 @@ A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScri
 - Configure <abbr title="Read-Eval-Print Loop">REPL</abbr>s globally or individually using [options](https://jhildenbiddle.github.io/docsify-plugin-runkit#options) from RunKit's API
 - Save changes as new notebooks on [runkit.com](https://runkit.com/)
 
-## Installation
+## Installation & Options
 
-1. Add the plugin to your `index.html` after docsify.
-
-   ```html
-   <!-- docsify (latest v4.x.x)-->
-   <script src="https://cdn.jsdelivr.net/npm/docsify@4"></script>
-
-   <!-- docsify-plugin-runkit (latest v1.x.x) -->
-   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-runkit@1"></script>
-   ```
-
-1. Review the [options](#options) section and configure as needed.
-
-   ```javascript
-   window.$docsify = {
-     // ...
-     runkit: {
-       // Options...
-     }
-   };
-   ```
-
-## Usage & Options
-
-See the [documentation site](https://jhildenbiddle.github.io/docsify-plugin-runkit) for details and demos.
+See the [documentation site](https://jhildenbiddle.github.io/docsify-plugin-runkit) for details.
 
 ## Contact & Support
 
