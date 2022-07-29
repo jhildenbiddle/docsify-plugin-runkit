@@ -43,16 +43,16 @@ browserSync.init({
             // Ex1: //cdn.com/package-name
             // Ex2: http://cdn.com/package-name@1.0.0
             // Ex3: https://cdn.com/package-name@latest
-            match  : /(?:https?:)*\/\/.*docsify-plugin-runkit[@\d.latest]*(?=["'])/g,
+            match  : /(?:https?:)*\/\/.*cdn.*docsify-plugin-runkit[@\d.latest]*(?=["'])/g,
             replace: '/docsify-plugin-runkit.min.js'
         },
         {
             // CDN paths to local paths
             // Ex1: //cdn.com/package-name/path/file.js => /path/file.js
-            // Ex2: http://cdn.com/package-name@1.0.0/path/file.js => /path/file.js
-            // Ex3: https://cdn.com/package-name@latest/path/file.js => /path/file.js
-            match  : /(?:https?:)*\/\/.*docsify-plugin-runkit[@\d.latest]*(?=\/)/g,
-            replace: ''
+            // Ex2: http://cdn.com/package-name@1.0.0/dist/file.js => /dist/file.js
+            // Ex3: https://cdn.com/package-name@latest/dist/file.js => /dist/file.js
+            match  : /(?:https?:)*\/\/.*cdn.*docsify-plugin-runkit[@\d.latest]*\/(?:dist\/)/g,
+            replace: '/'
         }
     ]
 });
