@@ -41,6 +41,8 @@ d3Graph(nodes, links);
 
 **Tip:** Press <kbd>⇧ Shift</kbd> <kbd>⌤ Enter</kbd> to "run" the notebook.
 
+?> Like this plugin? Check out [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable) for your site theme, [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/) for tabbed content, and [docsify-plugin-ethicalads](https://jhildenbiddle.github.io/docsify-plugin-ethicalads/) for EthicalAds integration!
+
 <!-- omit in toc -->
 ## Features
 
@@ -48,8 +50,6 @@ d3Graph(nodes, links);
 - Embed existing notebooks from [runkit.com](https://runkit.com/)
 - Configure <abbr title="Read-Eval-Print Loop">REPL</abbr>s globally or individually using [options](#options) from RunKit's API
 - Save changes as new notebooks on [runkit.com](https://runkit.com/)
-
-?> Like docsify-plugin-runkit? Be sure to check out [docsify-themeable](https://jhildenbiddle.github.io/docsify-themeable) for your site theme and [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/) for tabbed content!
 
 <!-- omit in toc -->
 ## Installation
