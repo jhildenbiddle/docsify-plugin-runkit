@@ -54,7 +54,7 @@ d3Graph(nodes, links);
 <!-- omit in toc -->
 ## Installation
 
-1. Add the plugin to your `index.html` after docsify.
+1. Add the plugin to your `index.html` after docsify. The plugin is available on [jsdelivr](https://www.jsdelivr.com/package/npm/docsify-plugin-runkit) (below), [unpkg](https://unpkg.com/browse/docsify-plugin-runkit/), and other CDN services that auto-publish npm packages.
 
    ```html
    <!-- docsify (latest v4.x.x)-->
@@ -63,6 +63,8 @@ d3Graph(nodes, links);
    <!-- docsify-plugin-runkit (latest v1.x.x) -->
    <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-runkit@1"></script>
    ```
+
+   !> Note the `@` version number lock in the URLs above. This prevents breaking changes in future releases from affecting your project and is therefore the safest method of loading dependencies from a CDN. When a new major version is released, you will need to manually update your CDN URLs by changing the version number after the @ symbol.
 
 1. Review the [options](#options) section and configure as needed.
 
