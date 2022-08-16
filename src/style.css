@@ -1,9 +1,14 @@
 [data-runkit] {
+    min-height: 1em;
     margin: 1em 0;
 }
 
 [data-runkit] pre {
     display: none;
+}
+
+[data-runkit] iframe {
+    display: block;
 }
 
 [data-runkit*="//"] iframe {
