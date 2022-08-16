@@ -39,7 +39,7 @@ function addEvents() {
     });
 }
 
-function init() {
+function renderRunkitElms() {
     const runkitElms = [].slice.call(document.querySelectorAll('[data-runkit]'));
 
     runkitElms.forEach(runkitElm => {
@@ -127,22 +127,27 @@ function waitFor(options) {
     };
     const settings = Object.assign({}, defaults, options);
 
-    let elapsed = 0;
+    if (settings.testFn()) {
+        settings.successFn();
+    }
+    else {
+        let elapsed = 0;
 
-    const waitInterval = setInterval(function() {
-        if (elapsed >= settings.timeout) {
-            clearInterval(waitInterval);
-            settings.failFn();
-        }
+        const waitInterval = setInterval(function() {
+            if (elapsed >= settings.timeout) {
+                clearInterval(waitInterval);
+                settings.failFn();
+            }
 
-        if (settings.testFn()) {
-            clearInterval(waitInterval);
-            settings.successFn();
-        }
-        else {
-            elapsed += settings.interval;
-        }
-    }, settings.interval);
+            if (settings.testFn()) {
+                clearInterval(waitInterval);
+                settings.successFn();
+            }
+            else {
+                elapsed += settings.interval;
+            }
+        }, settings.interval);
+    }
 }
 
 (function() {
@@ -151,7 +156,7 @@ function waitFor(options) {
             addEvents();
         });
 
-        hook.ready(function() {
+        hook.doneEach(function() {
             waitFor({
                 testFn() {
                     return window.RunKit;
@@ -160,7 +165,7 @@ function waitFor(options) {
                     // eslint-disable-next-line no-console
                     console.warn('docsify-plugin-runkit: RunKit not available');
                 },
-                successFn: init
+                successFn: renderRunkitElms
             });
         });
     };
