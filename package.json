@@ -1,6 +1,6 @@
 {
   "name": "docsify-plugin-runkit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A docsify.js plugin for rendering and embedding interactive JavaScript REPLs powered by RunKit",
   "author": "John Hildenbiddle",
   "license": "MIT",
