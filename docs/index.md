@@ -6,8 +6,9 @@
 [![Codacy grade](https://img.shields.io/codacy/grade/e9c2a9504211450ab39e0d72a1158a47.svg?style=flat-square)](https://app.codacy.com/gh/jhildenbiddle/docsify-plugin-runkit/dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/main/LICENSE)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/docsify-plugin-runkit/badge)](https://www.jsdelivr.com/package/npm/docsify-plugin-runkit)
+[![Sponsor this project](https://img.shields.io/static/v1?style=flat-square&label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/jhildenbiddle)
+[![Add a star on GitHub](https://img.shields.io/github/stars/jhildenbiddle/docsify-plugin-runkit?style=social)](https://github.com/jhildenbiddle/docsify-plugin-runkit)
 [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-plugin-runkit&hashtags=docsify,developers,frontend,plugin)
-<a class="github-button" href="https://github.com/jhildenbiddle/docsify-plugin-runkit" data-icon="octicon-star" data-show-count="true" aria-label="Star jhildenbiddle/docsify-plugin-runkit on GitHub">Star</a>
 
 A [docsify.js](https://docsify.js.org) plugin for rendering interactive JavaScript <abbr title="Read-Eval-Print Loop">REPL</abbr>s powered by [RunKit](https://runkit.com/).
 
@@ -446,11 +447,23 @@ runkit: {
 ```
 
 <!-- omit in toc -->
+## Sponsorship
+
+A [sponsorship](https://github.com/sponsors/jhildenbiddle) is more than just a way to show appreciation for the open-source authors and projects we rely on; it can be the spark that ignites the next big idea, the inspiration to create something new, and the motivation to share so that others may benefit.
+
+If you benefit from this project, please consider lending your support and encouraging future efforts by [becoming a sponsor](https://github.com/sponsors/jhildenbiddle).
+
+Thank you! 🙏🏻
+
+<iframe src="https://github.com/sponsors/jhildenbiddle/button" title="Sponsor jhildenbiddle" height="35" width="116" style="border: 0; margin: 0;"></iframe>
+
+<!-- omit in toc -->
 ## Contact & Support
 
-- Create a [GitHub issue](https://github.com/jhildenbiddle/docsify-plugin-runkit/issues) for bug reports, feature requests, or questions
-- Follow [@jhildenbiddle](https://twitter.com/jhildenbiddle) for announcements
-- Add a ⭐️ [star on GitHub](https://github.com/jhildenbiddle/docsify-plugin-runkit) or 🐦 [tweet](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-plugin-runkit&hashtags=docsify,developers,frontend,javascript) to support the project!
+- Follow 👨🏻‍💻 **@jhildenbiddle** on [Twitter](https://twitter.com/jhildenbiddle) and [GitHub](https://github.com/jhildenbiddle) for announcements
+- Create a 💬 [GitHub issue](https://github.com/jhildenbiddle/docsify-plugin-runkit/issues) for bug reports, feature requests, or questions
+- Add a ⭐️ [star on GitHub](https://github.com/jhildenbiddle/docsify-plugin-runkit) and 🐦 [tweet](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgithub.com%2Fjhildenbiddle%2Fdocsify-plugin-runkit&hashtags=docsify,developers,frontend,javascript) to promote the project
+- Become a 💖 [sponsor](https://github.com/sponsors/jhildenbiddle) to support the project and future efforts
 
 <!-- omit in toc -->
 ## License
@@ -458,6 +471,3 @@ runkit: {
 This project is licensed under the [MIT license](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/main/LICENSE).
 
 Copyright (c) John Hildenbiddle ([@jhildenbiddle](https://twitter.com/jhildenbiddle))
-
-<!-- GitHub Buttons -->
-<script async defer src="https://buttons.github.io/buttons.js"></script>
