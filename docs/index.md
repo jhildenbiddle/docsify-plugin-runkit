@@ -2,7 +2,7 @@
 # docsify-plugin-runkit
 
 [![NPM](https://img.shields.io/npm/v/docsify-plugin-runkit.svg?style=flat-square)](https://www.npmjs.com/package/docsify-plugin-runkit)
-[![GitHub Workflow Status (main)](https://img.shields.io/github/workflow/status/jhildenbiddle/docsify-plugin-runkit/Build/main?label=checks&style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/actions?query=branch%3Amain+)
+[![GitHub Workflow Status (main)](https://img.shields.io/github/actions/workflow/status/jhildenbiddle/docsify-plugin-runkit/test.yml?branch=main&label=checks&style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/actions?query=branch%3Amain+)
 [![Codacy grade](https://img.shields.io/codacy/grade/e9c2a9504211450ab39e0d72a1158a47.svg?style=flat-square)](https://app.codacy.com/gh/jhildenbiddle/docsify-plugin-runkit/dashboard)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://github.com/jhildenbiddle/docsify-plugin-runkit/blob/main/LICENSE)
 [![jsDelivr](https://data.jsdelivr.com/v1/package/npm/docsify-plugin-runkit/badge)](https://www.jsdelivr.com/package/npm/docsify-plugin-runkit)
